@@ -18,7 +18,7 @@ let text = `${htki} *DOWNLOAD* ${htka}
 ┗━━━━━━ꕥ
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '↗️Link', url: 'https://cararegistrasi.com/TyMuTxZ'}},
+    {index: 1, urlButton: {displayText: '↗️Link', url: 'https://www.youtube.com/@KATANAMODS'}},
 ]
 let tm = {
 text: text,
