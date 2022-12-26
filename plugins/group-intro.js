@@ -1,17 +1,14 @@
 let handler = async (m, { conn }) => {
 
 
-let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
+let krtu = `𝐈𝐍𝐓𝐑𝐎‹•═════════════❏
 │       *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
-│ *Hobby    :* 
 │ *Kelas      :* 
 │ *Asal         :* 
-│ *Agama    :* 
-│ *Status     :* 
-╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+╰═════ WELCOME. ━━━━❏
 http://bīt.ly/ᯤ
 `
 conn.fakeReply(m.chat, krtu, '0@s.whatsapp.net', wm)
