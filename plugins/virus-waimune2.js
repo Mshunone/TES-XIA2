@@ -4,14 +4,14 @@ let text = `${htki} *DOWNLOAD* ${htka}
            WhatsApp Imune ♨️
     
 ┏━━━ꕥ〔 *Kelebihan* 〕ꕥ━⬣
-┃✾ Anti Virtex✔️
-┃✾ Anti lag✔️
-┃✾ Fitur war✔️
+┃✾ Anti Virtex ✔️
+┃✾ Anti lag ✔️
+┃✾ Fitur war ✔️
 ┃✾ Anti Bug troli, slayer Dll✔️
 ┃✾ Anti kadaluarsa ✔️
-┃✾ Instantik✔️
+┃✾ Hidetag ✔️
 ┃✾ Anti hapus pesan ✔️
-┃✾ Unclone Version✔️
+┃✾ Unclone/clone Version✔️
 ┃✾ Broadcast ✔️
 ┃✾ Kebal All virus✔️
 ┃✾ Mode pesawat✔️
