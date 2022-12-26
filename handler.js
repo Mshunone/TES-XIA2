@@ -36,8 +36,8 @@ export async function handler(chatUpdate) {
         m = smsg(this, m) || m
         if (!m)
             return
-        m.exp = 0
-        m.limit = false
+        m.exp = 100
+        m.limit = true
         try {
             // TODO: use loop to insert data instead of this
             let user = global.db.data.users[m.sender]
@@ -57,7 +57,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.laper)) 
                     user.laper = 100
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.limit = 25
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!isNumber(user.joinlimit)) 
@@ -355,11 +355,11 @@ if (!isNumber(user.ayam)) user.ayam = 0
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 20,
+                    limit: 25,
                     lastclaim: 0,
                     registered: false,
                     spammer: 0,
-                    antispam: 0,
+                    antispam: 5,
                     antispamlastclaim: 0,
                     name: m.name,
                     pasangan: '',
@@ -367,7 +367,7 @@ if (!isNumber(user.ayam)) user.ayam = 0
                     laper: 100,
                     stamina : 100,
                     pc : 0,
-                    joinlimit: 1,
+                    joinlimit: 0,
                     coin: 0,
                     age: -1,
                     regTime: -1,
@@ -569,7 +569,7 @@ esteh: 0,
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = false
+                    chat.antiLink = true
                 if (!('antiSticker' in chat)) 
                     chat.antiSticker = false
                 if (!('viewonce' in chat))
@@ -594,7 +594,7 @@ esteh: 0,
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     antiSticker: false,
                     viewonce: false,
                     antiBadword: false,
@@ -611,7 +611,7 @@ esteh: 0,
     })
 }
           global.kontak2 = [
-        ['6282214729677', 'NexBotz', 'Creator Bot', 'Creator Bot', true],
+        ['6283805685278', 'Marxell', 'Creator Bot', 'Creator Bot', true],
         [`${nomorown}`, `${nameown}`, 'Owner Bot', 'Owner Bot', true]
         ]
             let settings = global.db.data.settings[this.user.jid]
@@ -823,11 +823,11 @@ esteh: 0,
                 m.isCommand = true
                 let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
                 if (xp > 200)
-                    this.sendButton(m.chat, `[❗] *Sepertinya Anda Bermain Curang, Menggunakan Calculator*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
+                    this.sendButton(m.chat, `[❗] *Bentar Lu main Curang Yak, Pakai Calculator -,-*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.sendButton(m.chat, `[❗] *Limit Anda Habis, Beberapa Command Tidak Bisa Di Akses*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
+                    this.sendButton(m.chat, `[❗] *Maaf Limit Habis, Beberapa Command Tidak Bisa Di Akses: )*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -873,7 +873,7 @@ esteh: 0,
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
                                 if (data.exists)
-                                    m.reply(`*📮HAY OWNER*\n\n_Laporan Eror terdeteksi_\n\nEROR DI 🗂️ Plugin:* ${m.plugin}\n*📤 Dari:* ${m.sender}\n*🗳️ID:* ${m.chat}\n*📑 Command Eror:* ${usedPrefix}${command} ${args.join(' ')}\n⚠️ *Logs Eror:*\n\n\`\`\`${text}\`\`\``.trim(), data.jid)
+                                    m.reply(`*📮Oy San*\n\n_Laporan Eror terdeteksi_\n\nEROR DI 🗂️ Plugin:* ${m.plugin}\n*📤 Dari:* ${m.sender}\n*🗳️ID:* ${m.chat}\n*📑 Command Eror:* ${usedPrefix}${command} ${args.join(' ')}\n⚠️ *Logs Eror:*\n\n\`\`\`${text}\`\`\``.trim(), data.jid)
                             }
                         m.reply(text)
                     }
@@ -886,8 +886,6 @@ esteh: 0,
                             console.error(e)
                         }
                     }
-                    //if (m.limit)
-                     //   m.reply(' ️Kamu menggunakan fitur limit\n╰► - 1 Limit') // lain kali jangan lupa tanda kurung nya ya! ... fixed by Fokusdotid (Fokus ID)
                 }
                 break
             }
