@@ -1,25 +1,25 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let imgr = flaaa.getRandom()
-let text = `*SYARAT & KETENTUAN*
+let text = `*Nyari SC ya banh?*
     
 
-📮 S&K
-1. Jangan diperjual belikan Script ini
-2. Jangan salah gunakan script ini!
-3. Jangan di per jual belikan
-• Jika ada eror di sc hub https://wa.me/6282214729677
+📮 Cari Sono di YT
+Mendingan join grub official :
+https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz
 
---------Thanks to ✨---------
-Allah SWT
-My parents
-All Friends
-All Contributors
-All Creator Bot
-Adiwajshing
-Nurutomo
-BochilGaming`
+• Jika ada eror di sc hub Owner
+
+--------| Thanks to |---------
+- Allah SWT
+- My parents
+- All Friends
+- All Contributors
+- All Creator Bot
+- Adiwajshing
+- Nurutomo
+- BochilGaming`
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://wa.me/6282214729677'}},
+    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://wa.me/6285641142178'}},
 ]
 let tm = {
 text: text,
