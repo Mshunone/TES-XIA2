@@ -32,7 +32,7 @@ const message = {
             ]
         }
         conn.sendMessage(m.chat, message)
-conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: {title: global.wm, body: 'Makasih udah Di kasi tau yah ^0^', sourceUrl: snh, thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer()  }}})
+conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: {title: global.wm, body: 'Cht Owner Xia Yang bener yah ^0^', sourceUrl: snh, thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer()  }}})
 }
 handler.help = ['complaint']
 handler.tags = ['group','info']
