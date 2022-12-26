@@ -11,7 +11,7 @@ let text = `${htki} *DOWNLOAD* ${htka}
 ┃✾ No Password ✔️
 ┗━━━━━━ꕥ`
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '↗️Link', url: 'https://cararegistrasi.com/cMyXZwsK'}},
+    {index: 1, urlButton: {displayText: '↗️Link', url: 'https://www.youtube.com/@RakaSlebew'}},
 ]
 let tm = {
 text: text,
