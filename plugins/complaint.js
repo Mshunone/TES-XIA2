@@ -12,27 +12,27 @@ const message = {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: 'Customer Service',
-                        url: 'wa.me/6288279268363',
+                        displayText: '🎗️ Customer Service',
+                        url: 'wa.me/6283805685278',
                     }
                 },
                 {
                     urlButton: {
-                        displayText: '📞 Owner',
-                        url: 'https://wa.me/6288279268363',
+                        displayText: '👤 Owner',
+                        url: 'https://wa.me/6285641142178',
 
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'OKE👍',
+                        displayText: 'OKEH👍',
                         id: 'Ok'
                     }
                 },
             ]
         }
         conn.sendMessage(m.chat, message)
-conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: {title: global.wm, body: 'Report main² tidak akan di respon', sourceUrl: snh, thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer()  }}})
+conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: {title: global.wm, body: 'Makasih udah Di kasi tau yah ^0^', sourceUrl: snh, thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer()  }}})
 }
 handler.help = ['complaint']
 handler.tags = ['group','info']
