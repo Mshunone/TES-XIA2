@@ -56,7 +56,8 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 `🤖 ɴᴀᴍᴇ: ${_package.name}
 🧩 ᴠᴇʀsɪᴏɴ: ${_package.version}
 📚 ʟɪʙʀᴀʀʏ: ${_package.description}
-👩‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: NexEp
+👩‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: Saxia-Team
+📝 ᴡᴇʙsɪᴛᴇ: https://bit.ly/SaxiaStore 
 
 ⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
 📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}
@@ -74,7 +75,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 ⮕ ${groupsIn.length - groupsIn.length} - Groups Left
 ⮕ ${chats.length - groupsIn.length} - Personal Chats
 ⮕ ${chats.length} - Total Chats
-`.trim(), './media/botinfo.jpg', 'https://chat.whatsapp.com/IFjWiJjVM0dHBEK6j05GEF', '🎀GRUP', null, null, [
+`.trim(), './media/botinfo.jpg', 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz', '📚GRUP', null, null, [
 [`👑ᴏᴡɴᴇʀ`, `${usedPrefix}owner`],
 [`💱ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donate`]
 ], m, {asLocation: false})
