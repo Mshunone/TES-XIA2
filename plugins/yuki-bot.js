@@ -7,17 +7,17 @@ let handler = async (m, { conn, command, text }) => {
   let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
 await conn.sendButton(m.chat, `Halo juga kak ${name} Ada Yang ${await conn.getName(conn.user.jid)} Bisa Bantu?\n`,wm + '\n\n' + botdate, giflogo2, [['MENU','.menu']], m, {
 contextInfo: { externalAdReply :{
-                        mediaUrl: 'https://youtu.be/ALQiRR1nzLI',
+                        mediaUrl: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz',
                         mediaType: 2,
                         description: 'anu',
                         title: global.titlebot,
-                        body: '⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ᴹᴿ᭄ PutraModz ×፝֟͜×',          previewType: 0,
+                        body: '⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ©Saxia˘Botz',          previewType: 0,
                         thumbnail: await (await fetch(pp)).buffer(),
-                        sourceUrl: 'https://youtu.be/ALQiRR1nzLI'
+                        sourceUrl: 'https://bit.ly/SaxiaShop'
                       }}
 })
 }
-handler.customPrefix = /^(Hallo|halo|Halo|hallo|hi|helo|hai|hi|Hai|Helo|Hello)$/i
+handler.customPrefix = /^(Hallo|halo|Halo|hallo|hi|helo|hai|hi|Hai|Helo|Hello|P|Xia|xi|Bot|bot|p|hy|hay|hamlo|Hamlo|Hay)$/i
 handler.command = new RegExp
 
 export default handler
