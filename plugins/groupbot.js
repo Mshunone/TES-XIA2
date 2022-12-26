@@ -6,7 +6,7 @@ const sections = [
    {
 	title: `𝗝𝗢𝗜𝗡 𝗞𝗘 𝗚𝗥𝗨𝗣 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗕𝗢𝗧*\n\n\n━━━〔 Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕━━━`,
 	rows: [
-	    {title: '💌 › Group NexBotz', description: "Group Utama putra NexBotz", rowId:".gcbot"}
+	    {title: '🎗️ › Group Official', description: "Group Saxia`Botz MD", rowId:".gcbot"}
 	    ]
       },
 ]
@@ -19,7 +19,7 @@ const listMessage = {
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
-//conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
+//conn.sendHydrated(m.chat, info, wm, null, sgc, "🎗️ Group Official", null,null, [['Owner','.owner']], m)
 }
 
 handler.help = ['groupbot']
