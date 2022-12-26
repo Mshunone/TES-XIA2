@@ -12,7 +12,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 let cap = `*BIG THANKS TO*
     
 Terutama Terimakasih Teruntuk:
-➸ @${'628812743180'.split('@')[0]}
+➸ @${'6283805685278'.split('@')[0]}
 
 Terimakasih Juga Untuk Kang Banned:
 ➸ 0@s.whatsapp.net
@@ -20,66 +20,42 @@ Terimakasih Juga Untuk Kang Banned:
 ─────────────────────
 • God
 • My ortu
-• King Of Bear ( Me )
+• Team Saxia
+• Saxia Botz ( Me )
+• King Of Bear
 • Nurutomo
 • Adiwajshing
-• Ariffb
-• Amel
-• IrwanX
-• Dawnfrosty
-• Rteam1
-• Beniismael
-• Raditya 
-• AlyaaXzy 
-• Haori 
-• David
-• Rozi
-• Letta
-• Yanzz
-• Furqan
-• Elyas
-• Rasel
-• Xteam
-• Khael
 • Atenabot
-• Baka Botz
-• ZeeoneOfc
-• Zeks
-• Rendycraft  
+• Baka Botz  
 • Krizynofc
-• Nadin
-• NexEp
 • Jarot
-• Tio
-• Aca Mirabel
-• Ramdani
 • Penyedia Layanan API
 • Orang-orang yang Berdonasi
 ─────────────────────`
   let buttonMessage= {
-'document':{'url':'https://youtu.be/dd2FWLD6H9Q'},
+'document':{'url':'https://bit.ly/SaxiaShop'},
 'mimetype':global.ddocx,
-'fileName':'NexBotz',
+'fileName':'Bot Whatsapp ┊↬ Saxia˘MD',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/hklv-Ysqqac',
+'mediaUrl':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz',
 'mediaType':2,
 'previewType':'pdf',
-'title':`A MIMIR🎧: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+'title':`「 ©Saxia˘Botz 」`,
 'body':`By NexEp`,
-'thumbnail':await(await fetch('https://telegra.ph/file/fb6ed7b403be07c191060.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/dd2FWLD6H9Q'}},
+'thumbnail':await(await fetch('https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg')).buffer(),
+'sourceUrl':'https://bit.ly/SaxiaShop'}},
 'caption':cap,
-'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
+'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Mau Membantu
 
 ${botdate}`,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'▣ Mҽɳυ ▣'},'type':1},
-{'buttonId':'.salken','buttonText':{'displayText':'🎈Hαʅʅσ'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'Mҽɳυ'},'type':1},
+{'buttonId':'.salken','buttonText':{'displayText':'Hαʅʅσ'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
