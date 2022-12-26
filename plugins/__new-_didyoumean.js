@@ -18,6 +18,6 @@ https://github.com/FokusDotId/
 		//let alias = Object.values(global.plugins).filter(v => v.help && !v.disabled).map(v => v.help).flat(1)
 		//if (alias.includes(noPrefix)) return
 		//let mean = didyoumean(noPrefix, alias)
-	 //if (mean) await this.sendButton(m.chat, `\n   mungkin maksud anda *${usedPrefix + mean}*?\n`, wm, [['✅️', usedPrefix + mean + ` ${text}`], ['❌', usedPrefix + '?']], m)
+	 //if (mean) await this.sendButton(m.chat, `\n   mungkin maksud Kamu *${usedPrefix + mean}*?\n`, wm, [['✅️', usedPrefix + mean + ` ${text}`], ['❌', usedPrefix + '?']], m)
 	//}
 //}
