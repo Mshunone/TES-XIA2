@@ -20,7 +20,7 @@ contextInfo: { externalAdReply :{
                         description: 'anu',
                         title: `「 ©Saxia˘Botz 」`,
                         body: `Join Grup`,          previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jbHnwDr/20221218-011857.jpg`)).buffer(),
+                        thumbnail: await (await fetch(`https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg`)).buffer(),
                         sourceUrl: 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'
                       }}
 })
