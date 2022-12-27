@@ -12,8 +12,8 @@ let totalf = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length;
  await conn.sendButton(m.chat, `*👋 Hai Kak*
-Aku SaxiaBotz Whatsapp Yang di buat oleh Team Saxia. Shilakan Pakai ya kak Jangan lupa join gc Xia.
-Kalau Ada Yg Error Bisa Langsung Report Ke Owner.\n`,wm + '\n\n' + botdate, thumbdoc, [['Aʟʟ Mᴇɴᴜ','.? all'],['Lɪsᴛ Mᴇɴᴜ','.siuuu']], m, {
+It's Me SaxiaBotz Whatsapp Yang di buat oleh Team Saxia. Jangan lupa .verify Dulu
+Kalau Xia Ada Yg Error Bisa Langsung Report Ke Owner Ya.\n`,wm + '\n\n' + botdate, thumbdoc, [['Aʟʟ Mᴇɴᴜ','.? all'],['Lɪsᴛ Mᴇɴᴜ','.siuuu']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
